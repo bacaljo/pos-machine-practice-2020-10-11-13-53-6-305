@@ -1,137 +1,140 @@
-<mxfile host="app.diagrams.net" modified="2020-10-13T13:35:45.497Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 Edg/83.0.478.61" etag="GjEN6N3zno8D5kjfnsOH" version="13.7.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-13T13:39:48.094Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 Edg/83.0.478.61" etag="OV3JHlQucOWnvwsc76_-" version="13.7.9" type="github">
   <diagram id="Jn03Ld8kGc8g2uh7eZn9" name="Page-1">
-    <mxGraphModel dx="1133" dy="668" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1943" dy="1146" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="hWNtyaSSDp_jitX7ca-6-1" value="printReceipt" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="80" width="120" height="440" as="geometry" />
+          <mxGeometry x="255" y="120" width="120" height="440" as="geometry" />
         </mxCell>
         <mxCell id="hWNtyaSSDp_jitX7ca-6-2" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="80" y="100" as="sourcePoint" />
-            <mxPoint x="180" y="100" as="targetPoint" />
+            <mxPoint x="135" y="140" as="sourcePoint" />
+            <mxPoint x="235" y="140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="hWNtyaSSDp_jitX7ca-6-3" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="180" y="499.17" as="sourcePoint" />
-            <mxPoint x="80" y="499.17" as="targetPoint" />
+            <mxPoint x="235" y="539.1700000000001" as="sourcePoint" />
+            <mxPoint x="135" y="539.1700000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="hWNtyaSSDp_jitX7ca-6-4" value="barcodes: List&amp;lt;String&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="65" y="80" width="130" height="20" as="geometry" />
+          <mxGeometry x="120" y="120" width="130" height="20" as="geometry" />
         </mxCell>
         <mxCell id="hWNtyaSSDp_jitX7ca-6-5" value="printedReceipt: String" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="70" y="480" width="120" height="20" as="geometry" />
+          <mxGeometry x="125" y="520" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="hWNtyaSSDp_jitX7ca-6-6" value="getItemByBarcode" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="920" y="200" width="120" height="80" as="geometry" />
+          <mxGeometry x="975" y="240" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="hWNtyaSSDp_jitX7ca-6-7" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="700" y="220" as="sourcePoint" />
-            <mxPoint x="900" y="220" as="targetPoint" />
+            <mxPoint x="755" y="260" as="sourcePoint" />
+            <mxPoint x="955" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="hWNtyaSSDp_jitX7ca-6-8" value="createReceipt" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="440" width="120" height="80" as="geometry" />
+          <mxGeometry x="615" y="480" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="hWNtyaSSDp_jitX7ca-6-9" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="900" y="260" as="sourcePoint" />
-            <mxPoint x="700" y="260" as="targetPoint" />
+            <mxPoint x="955" y="300" as="sourcePoint" />
+            <mxPoint x="755" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="hWNtyaSSDp_jitX7ca-6-10" value="barcode: String" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="750" y="200" width="110" height="20" as="geometry" />
+          <mxGeometry x="805" y="240" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="hWNtyaSSDp_jitX7ca-6-11" value="itemInfo: ItemInfo" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="750" y="240" width="110" height="20" as="geometry" />
+          <mxGeometry x="805" y="280" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="hWNtyaSSDp_jitX7ca-6-12" value="getItemQuantity" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="80" width="120" height="80" as="geometry" />
+          <mxGeometry x="615" y="120" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="hWNtyaSSDp_jitX7ca-6-13" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="340" y="100" as="sourcePoint" />
-            <mxPoint x="540" y="100" as="targetPoint" />
+            <mxPoint x="395" y="140" as="sourcePoint" />
+            <mxPoint x="595" y="140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="hWNtyaSSDp_jitX7ca-6-15" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="540" y="139" as="sourcePoint" />
-            <mxPoint x="340" y="139" as="targetPoint" />
+            <mxPoint x="595" y="179" as="sourcePoint" />
+            <mxPoint x="395" y="179" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="hWNtyaSSDp_jitX7ca-6-16" value="itemQuantityList: List&amp;lt;ItemQuantity&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="340" y="120" width="215" height="20" as="geometry" />
+          <mxGeometry x="395" y="160" width="215" height="20" as="geometry" />
         </mxCell>
         <mxCell id="hWNtyaSSDp_jitX7ca-6-18" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="340" y="460" as="sourcePoint" />
-            <mxPoint x="540" y="460" as="targetPoint" />
+            <mxPoint x="395" y="500" as="sourcePoint" />
+            <mxPoint x="595" y="500" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="hWNtyaSSDp_jitX7ca-6-20" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="540" y="500" as="sourcePoint" />
-            <mxPoint x="340" y="500" as="targetPoint" />
+            <mxPoint x="595" y="540" as="sourcePoint" />
+            <mxPoint x="395" y="540" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="hWNtyaSSDp_jitX7ca-6-21" value="receipt: Receipt" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="390" y="480" width="110" height="20" as="geometry" />
+          <mxGeometry x="445" y="520" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="hWNtyaSSDp_jitX7ca-6-22" value="createReceiptItem" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="920" y="320" width="120" height="80" as="geometry" />
+          <mxGeometry x="975" y="360" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="hWNtyaSSDp_jitX7ca-6-24" value="barcodes: List&amp;lt;String&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="380" y="80" width="130" height="20" as="geometry" />
+          <mxGeometry x="435" y="120" width="130" height="20" as="geometry" />
         </mxCell>
         <mxCell id="hWNtyaSSDp_jitX7ca-6-25" value="&lt;div style=&quot;line-height: 19px&quot;&gt;&lt;div style=&quot;line-height: 19px&quot;&gt;&lt;div style=&quot;line-height: 19px&quot;&gt;&lt;div&gt;&lt;span&gt;ItemQuantity&amp;nbsp;{&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;barcode&lt;span style=&quot;font-style: italic&quot;&gt;:&lt;/span&gt;&amp;nbsp;String&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;quantity&lt;span style=&quot;font-style: italic&quot;&gt;:&lt;/span&gt;&amp;nbsp;int&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;br&gt;&lt;div&gt;ReceiptItem&amp;nbsp;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; itemInfo: ItemInfo&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;quantity&lt;span style=&quot;font-style: italic&quot;&gt;:&lt;/span&gt;&amp;nbsp;int&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;subtotal&lt;span style=&quot;font-style: italic&quot;&gt;:&lt;/span&gt;&amp;nbsp;int&lt;/div&gt;&lt;br&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;toString()&lt;span style=&quot;font-style: italic&quot;&gt;:&lt;/span&gt;&amp;nbsp;String&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;br&gt;&lt;div&gt;Receipt&amp;nbsp;{&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;receiptItemList&lt;span style=&quot;font-style: italic&quot;&gt;:&lt;/span&gt;&amp;nbsp;List&amp;lt;ReceiptItem&amp;gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;total&lt;span style=&quot;font-style: italic&quot;&gt;:&lt;/span&gt;&amp;nbsp;int&lt;/div&gt;&lt;br&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;toString()&lt;span style=&quot;font-style: italic&quot;&gt;:&lt;/span&gt;&amp;nbsp;String&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1090" y="80" width="200" height="510" as="geometry" />
+          <mxGeometry x="1145" y="120" width="200" height="510" as="geometry" />
         </mxCell>
         <mxCell id="hWNtyaSSDp_jitX7ca-6-27" value="buildReceiptItems" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="200" width="120" height="200" as="geometry" />
+          <mxGeometry x="615" y="240" width="120" height="200" as="geometry" />
         </mxCell>
         <mxCell id="hWNtyaSSDp_jitX7ca-6-28" value="itemQuantityList: List&amp;lt;ItemQuantity&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="327.5" y="200" width="215" height="20" as="geometry" />
+          <mxGeometry x="382.5" y="240" width="215" height="20" as="geometry" />
         </mxCell>
         <mxCell id="hWNtyaSSDp_jitX7ca-6-29" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="340" y="220" as="sourcePoint" />
-            <mxPoint x="540" y="220" as="targetPoint" />
+            <mxPoint x="395" y="260" as="sourcePoint" />
+            <mxPoint x="595" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="hWNtyaSSDp_jitX7ca-6-30" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="700" y="340" as="sourcePoint" />
-            <mxPoint x="900" y="340" as="targetPoint" />
+            <mxPoint x="755" y="380" as="sourcePoint" />
+            <mxPoint x="955" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="hWNtyaSSDp_jitX7ca-6-31" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="900" y="380" as="sourcePoint" />
-            <mxPoint x="700" y="380" as="targetPoint" />
+            <mxPoint x="955" y="420" as="sourcePoint" />
+            <mxPoint x="755" y="420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="hWNtyaSSDp_jitX7ca-6-33" value="itemInfo: ItemInfo&lt;br&gt;quantity: int" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="740" y="300" width="110" height="40" as="geometry" />
+          <mxGeometry x="795" y="340" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="hWNtyaSSDp_jitX7ca-6-35" value="receiptItem: ReceiptItem" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="725" y="360" width="160" height="20" as="geometry" />
+          <mxGeometry x="780" y="400" width="160" height="20" as="geometry" />
         </mxCell>
         <mxCell id="hWNtyaSSDp_jitX7ca-6-36" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="540" y="380" as="sourcePoint" />
-            <mxPoint x="340" y="380" as="targetPoint" />
+            <mxPoint x="595" y="420" as="sourcePoint" />
+            <mxPoint x="395" y="420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="hWNtyaSSDp_jitX7ca-6-37" value="receiptItemList: List&amp;lt;ReceiptItem&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="341.25" y="360" width="212.5" height="20" as="geometry" />
+          <mxGeometry x="396.25" y="400" width="212.5" height="20" as="geometry" />
         </mxCell>
         <mxCell id="hWNtyaSSDp_jitX7ca-6-39" value="receiptItemList: List&amp;lt;ReceiptItem&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="330" y="440" width="212.5" height="20" as="geometry" />
+          <mxGeometry x="385" y="480" width="212.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hWNtyaSSDp_jitX7ca-6-40" value="POS Machine" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="740" y="40" width="110" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
