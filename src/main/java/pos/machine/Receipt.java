@@ -20,13 +20,14 @@ public class Receipt {
     public String toString() {
         List<String> receiptLineList = new ArrayList<>();
 
-        receiptLineList.add("***<store earning no money>Receipt ***");
+        receiptLineList.add("***<store earning no money>Receipt***");
         for (ReceiptItem receiptItem : receiptItemList) {
             receiptLineList.add(receiptItem.toString());
         }
         receiptLineList.add("----------------------");
         receiptLineList.add(String.format("Total: %d (%s)", total, CURRENCY));
+        receiptLineList.add("**********************");
 
-        return String.join("\r\n", receiptLineList);
+        return String.join("\n", receiptLineList);
     }
 }

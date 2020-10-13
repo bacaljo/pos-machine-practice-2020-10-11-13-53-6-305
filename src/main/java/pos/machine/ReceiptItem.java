@@ -27,7 +27,7 @@ public class ReceiptItem {
 
     @Override
     public String toString() {
-        return String.format("Name: %s, Quantity: %d, Unit price: %d (%s), Subtotal: %d(%s)",
+        return String.format("Name: %s, Quantity: %d, Unit price: %d (%s), Subtotal: %d (%s)",
                 itemInfo.getName(), quantity, itemInfo.getPrice(), CURRENCY, subtotal, CURRENCY);
     }
 }
