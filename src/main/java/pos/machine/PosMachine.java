@@ -1,6 +1,10 @@
 package pos.machine;
 
+import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
+
+import static java.util.Collections.frequency;
 
 public class PosMachine {
     public String printReceipt(List<String> barcodes) {
@@ -20,6 +24,14 @@ public class PosMachine {
     }
 
     private List<ItemQuantity> getItemQuantity(List<String> barcodes) {
-        return null;
+        List<ItemQuantity> itemQuantityList = new ArrayList<>();
+
+        barcodes.stream().distinct().forEach(barcode -> {
+            int quantity = frequency(barcodes, barcode);
+
+            itemQuantityList.add(new ItemQuantity(barcode, quantity));
+        });
+
+        return itemQuantityList;
     }
 }
