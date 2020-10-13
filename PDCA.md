@@ -35,3 +35,9 @@ getItemByBarcode()
 - .75
 - Passed
 - N/A
+
+createReceipt()
+- 5
+- 4
+- Passed
+- N/A
