@@ -6,6 +6,8 @@ import java.util.List;
 import static java.util.Collections.frequency;
 
 public class PosMachine {
+    public static final String CURRENCY = "yuan";
+
     public String printReceipt(List<String> barcodes) {
         List<ItemQuantity> itemQuantityList = getItemQuantity(barcodes);
         List<ReceiptItem> receiptItemList = buildReceiptItems(itemQuantityList);
@@ -36,7 +38,7 @@ public class PosMachine {
     }
 
     private ReceiptItem createReceiptItem(ItemInfo itemInfo, int quantity) {
-        return null;
+        return new ReceiptItem(itemInfo, quantity);
     }
 
     private List<ItemQuantity> getItemQuantity(List<String> barcodes) {
