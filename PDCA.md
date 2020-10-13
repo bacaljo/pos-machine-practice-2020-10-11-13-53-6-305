@@ -17,3 +17,9 @@ createReceipt()
 - 1
 - Passed
 - N/A
+
+buildReceiptItems()
+- 3
+- 2.5
+- Passed
+- N/A
