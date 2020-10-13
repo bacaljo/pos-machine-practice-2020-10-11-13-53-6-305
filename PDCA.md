@@ -11,3 +11,9 @@ getItemQuantity()
 - 2
 - Passed
 - N/A
+
+createReceipt()
+- 2
+- 1
+- Passed
+- N/A
