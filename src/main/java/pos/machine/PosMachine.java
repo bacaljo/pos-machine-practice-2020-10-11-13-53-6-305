@@ -19,6 +19,23 @@ public class PosMachine {
     }
 
     private List<ReceiptItem> buildReceiptItems(List<ItemQuantity> itemQuantityList) {
+        List<ReceiptItem> receiptItemList = new ArrayList<>();
+
+        for (ItemQuantity itemQuantity : itemQuantityList) {
+            ItemInfo itemInfo = getItemByBarCode(itemQuantity.getBarcode());
+            ReceiptItem receiptItem = createReceiptItem(itemInfo, itemQuantity.getQuantity());
+
+            receiptItemList.add(receiptItem);
+        }
+
+        return receiptItemList;
+    }
+
+    private ItemInfo getItemByBarCode(String barcode) {
+        return null;
+    }
+
+    private ReceiptItem createReceiptItem(ItemInfo itemInfo, int quantity) {
         return null;
     }
 
