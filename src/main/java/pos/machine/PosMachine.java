@@ -34,7 +34,10 @@ public class PosMachine {
     }
 
     private ItemInfo getItemByBarCode(String barcode) {
-        return null;
+        return ItemDataLoader.loadAllItemInfos().stream()
+                .filter(itemInfo -> itemInfo.getBarcode().equals(barcode))
+                .findFirst()
+                .get();
     }
 
     private ReceiptItem createReceiptItem(ItemInfo itemInfo, int quantity) {
