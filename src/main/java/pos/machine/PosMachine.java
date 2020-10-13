@@ -2,7 +2,6 @@ package pos.machine;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
 
 import static java.util.Collections.frequency;
 
@@ -16,7 +15,7 @@ public class PosMachine {
     }
 
     private Receipt createReceipt(List<ReceiptItem> receiptItemList) {
-        return null;
+        return new Receipt(receiptItemList);
     }
 
     private List<ReceiptItem> buildReceiptItems(List<ItemQuantity> itemQuantityList) {
