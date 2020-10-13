@@ -29,3 +29,9 @@ createReceiptItem()
 - 4
 - I was delayed because I forgot that I have to create a constant for currency
 - Again, I should spend more time in planning phase to avoid such scenarios
+
+getItemByBarcode()
+- 1
+- .75
+- Passed
+- N/A
