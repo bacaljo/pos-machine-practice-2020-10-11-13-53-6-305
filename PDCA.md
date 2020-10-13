@@ -23,3 +23,9 @@ buildReceiptItems()
 - 2.5
 - Passed
 - N/A
+
+createReceiptItem()
+- 3
+- 4
+- I was delayed because I forgot that I have to create a constant for currency
+- Again, I should spend more time in planning phase to avoid such scenarios
