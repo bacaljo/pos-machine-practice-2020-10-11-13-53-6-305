@@ -1,8 +1,8 @@
 package pos.machine;
 
 public class ItemQuantity {
-    private String barcode;
-    private int quantity;
+    private final String barcode;
+    private final int quantity;
 
     public ItemQuantity(String barcode, int quantity) {
         this.barcode = barcode;

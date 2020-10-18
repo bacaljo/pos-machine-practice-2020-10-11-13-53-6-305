@@ -3,9 +3,9 @@ package pos.machine;
 import static pos.machine.PosMachine.CURRENCY;
 
 public class ReceiptItem {
-    private ItemInfo itemInfo;
-    private int quantity;
-    private int subtotal;
+    private final ItemInfo itemInfo;
+    private final int quantity;
+    private final int subtotal;
 
     public ReceiptItem(ItemInfo itemInfo, int quantity) {
         this.itemInfo = itemInfo;

@@ -6,7 +6,7 @@ import java.util.List;
 import static pos.machine.PosMachine.CURRENCY;
 
 public class Receipt {
-    private List<ReceiptItem> receiptItemList;
+    private final List<ReceiptItem> receiptItemList;
     private int total;
 
     public Receipt(List<ReceiptItem> receiptItemList) {
