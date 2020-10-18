@@ -13,14 +13,6 @@ public class ReceiptItem {
         subtotal = itemInfo.getPrice() * quantity;
     }
 
-    public ItemInfo getItemInfo() {
-        return itemInfo;
-    }
-
-    public int getQuantity() {
-        return quantity;
-    }
-
     public int getSubtotal() {
         return subtotal;
     }
